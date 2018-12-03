@@ -1,0 +1,27 @@
+{
+  "name": "lit-lazy-image-infinite-scroll",
+  "version": "0.0.1",
+  "description": "LitElement: lazy-image & infinite-scroll",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc && polymer build",
+    "serve": "polymer serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howking/lit-lazy-image-infinite-scroll.git"
+  },
+  "keywords": [
+    "lit-html",
+    "lit-element"
+  ],
+  "author": "Junji Shiokawa",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.4"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.9.1",
+    "typescript": "^3.1.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "entrypoint": "index.html",
+  "shell": "index.js",
+  "builds": [{
+    "name": "default",
+    "preset": "es5-bundled",
+    "addServiceWorker": false
+  }],
+  "moduleResolution": "node",
+  "npm": true
+}
